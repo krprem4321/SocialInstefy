@@ -10,5 +10,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Log.i("TAG", "onCreate: Hello Dhiraj")
+        val result=add(4,5)
+        Log.i("TAG", "add method result = $result")
+        
+    }
+    
+    private fun add(a:Int,b:Int):Int{
+        return a+b;
     }
 }
